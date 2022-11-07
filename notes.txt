@@ -1,0 +1,22 @@
+Gig_finder
+
+category #has_many :job_listings
+###job_type
+
+(###Tech
+###Writing
+###Entertainment
+###Promotions
+###Tutoring)
+
+job_listings #belongs_to :category
+###title
+###Body
+###Date
+###Completed
+###Category_id
+
+user #has_many :job_listings #has_many :categories
+###name
+###location
+###email
